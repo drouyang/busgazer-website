@@ -180,16 +180,16 @@ body{
 }
 .icon2 span{
 	height: 50px;
-	width: 53px;
+	width: 50px;
 	display: block;
 	background: url(../images/calendar50.png) no-repeat #F2F4F5;
 	vertical-align: middle;
 }
 .icon2 span:hover{
 	height: 50px;
-	width: 53px;
+	width: 50px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -102px -880px;
+	background: url(../images/calendar50.png) no-repeat #F2F4F5;
 	vertical-align: middle;
 }
 .icon3{
