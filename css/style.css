@@ -154,14 +154,14 @@ body{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 0px -826px;
+	background: url(../images/realtime50.png) no-repeat #F2F4F5;
 	vertical-align: middle;
 }
 .icon1 span:hover{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 0px -879px;
+	background: url(../images/realtime50.png) no-repeat #F2F4F5;
 	vertical-align: middle;
 }
 .icon2{
@@ -210,14 +210,14 @@ body{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -51px -828px;
+	background: url(../images/search50.png) no-repeat #F2F4F5;
 	vertical-align: middle;
 }
 .icon3 span:hover{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -51px -881px;
+	background: url(../images/search50.png) no-repeat #F2F4F5;
 	vertical-align: middle;
 }
 .top-grid{
