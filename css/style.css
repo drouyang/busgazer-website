@@ -21,8 +21,18 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
+
 body{
 	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-size:5em;
+}
+
+h2{
+	font-size:1.5em;
+	color:#184b9c;
 }
 
 /*---start-wrap-----*/
@@ -91,10 +101,11 @@ body{
 	font-size:5em;
 }
 .img-banner-info h1 span{
-	color:#000;
+	color:#184b9c;
 }
 .img-banner-info h2{
 	font-size:2em;
+	color:#184b9c;
 }
 .img-banner-info-logo {
   text-align: right;
