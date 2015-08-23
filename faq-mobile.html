@@ -8,19 +8,30 @@
 </head>
 <body>
   <h2>Q: Why Busgazer</h2>
-  <p>A: Waiting for buses in painful, especially in extreme weather, e.g. the chilly winter in Pittsburgh. With Busgaer, you know exactly when you buses will arrives, so that you can plan accordingly.
+  <p>A: Waiting for buses in painful, especially in extreme weather, e.g. the chilly winter in Pittsburgh. With Busgazer, you know exactly when you buses will arrives, so that you can plan accordingly.
   </p>
 
+  <h2>Q: Who are we?</h2>
+  <p>A: Busgazer is originally developed as a side project by a group of students at the Computer Science Department at PITT. We made it available to the public to give back to the community. Our frist iOS App was released on November 8, 2014, at the beginning of the winter. And we released our first Android App on December 4, 2014. 
+  </p>
+  <p> Our mission now is to build a world class realtime transit App, and we start right here from Pittsburgh. If you like Busgazer and find it helpful, please share it with your friends and like us on Facebook. You can also support us via in-App purchase. Your support is our forward power!  </p>
 
   <h2>Q: How Busgazer works?</h2>
   <p>A: Busgazer predicts bus arrival times based on realtime data source provided by the the Port Authority of Allegheny County (PAAC). The realtime predications are calculated from realtime GPS location data collected from tracking devices installed on buses. 
   </p>
 
-  <h2>Q: Who are we?</h2>
-  <p>A: Busgazer is developed as a side project by a group of students at the Computer Science Department at PITT. We made it available to the public to give back to the community. Our frist iOS App was released on November 8, 2014, at the beginning of the winter. And we released our first Android App on December 4, 2014. 
+  <h2>Q: How Accurate it is?</h2>
+  <p>A: The accuracy of Busgazer mostly depends on the accuracy of the realtime data provided by PAAC. PAAC collects realtime bus location GPS data, and calculates the expected arrival time at each stop. Due to the unpredictable realtime road conditions (e.g. traffic lights, boarding time), do expect ~1 min variance when interpreting the predicted arrival time.</p>
+
+  <h2>Q: What are the "Raw data from PAAC" and "Processed Data"?</h2>
+  <p>A: "Raw data from PAAC" shows the original realtime data we get from PAAC. We then process the realtime data and combine it with schedule information, which is what "Processed Data" shows. All other transit Apps provide only one of the two kind of information, we provide both so that you can have a reference and get more accurate expected arrival time.</p>
+
+  <h2>Q: Why are some buses shown as scheduled but not realtime?</h2>
+  <p>A: Either because the scheduled bus is not on the road, or we failed to match the bus on road with the schedule information. In this case, you can check the "Raw Data from PAAC" to find out if any information is provided by PAAC.
   </p>
 
-  <p>Currently it is running with out external funding. We have put in months of fulltime engineering efforts as well as money from our own pocket to build and improve Busgazer. If you like it and find it helpful, please share this App with your friends or like us on Facebook. You can also support us via in-App purchase. Your support is our forward power!
+  <h2>Q: Why sometimes buses arrive are not shown on Busgazer?</h2>
+  <p>A: We call them "Phantom buses". Mostly likely it is because PAAC failed to provide the realtime information about that bus. In this case, you can checkout "Raw Data from PAAC".
   </p>
 
   <h2>Q: What are coins used for?</h2>
@@ -32,6 +43,16 @@
   <h2>Q: What about the referral program?</h2>
   <p>A: You can get 100 coins in total for each successful referral. By sending the referral link to your friends, you will get 50 coins if they clicked the link, and installed Busgazer. You get another 50 coins if they successfully signed up.</p>
     <p>As for now, Android user referrals will not be rewarded automatically. However, you can send their screenshots to us, and we will adjust your coins accordingly if the referral is verified.</p>
-
 </body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66259455-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>
